@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    z-index: 1;
+    word-wrap: break-word;
+}
+
+.container{
+    width: 1870px;
+}
+.tophader{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.header{
+    background: #1E1E1E;
+    background-image: url(../image/section.elementor-element\ \(1\).png) ;
+    padding-bottom: 72px;
+    
+}
+.list{
+    color: #fff;
+    display: flex;
+    margin-left: 152px;
+    margin-right: 151px;
+    
+}
+.list li{
+    margin-left: 72px;
+    font-size: 25px; 
+}
+.imtext{
+    margin-top: 108px;
+}
+.sectionFirst{
+    color: fff;
+}
+.imgBas{
+    margin-left: 333px;
+}
+.welcome{
+    color: #BD2D20;
+    font-size: 50px;
+}
+.general{
+    display: flex;
+    align-items: center;
+}
+.com{
+    font-size: 40px;
+    width: 811px;
+}
+.right{
+    margin-left: 54px;
+}
+.sectionTwo{
+    background: #1E1E1E;
+    background-image: url(../image/asd.png) ;
+    padding-top: 222px;
+    padding-bottom: 223px;
+    color: #fff;
+    
+}
+.target{
+    align-items: center;
+}
+.inf{
+    justify-content: space-between;
+    display: flex;
+    width: 1274px;
+    align-items: center;
+    margin-left: 367px;
+}
+.targetText{
+    margin: 38px 40% ;
+}
+.textP{
+    width: 336px;
+    font-size: 15px;
+}
+.pngsize{
+    margin-left: 34%;
+}
+.footer{
+    background-color: #1E1E1E;
+    padding-top: 202px;
+    color: #fff;
+}
+.foterGeneral{
+    display: flex;
+    justify-content: center
+}
+.foterGeneral div{
+    margin-right: 163px;
+}
+.footerh1{
+    font-size: 20px;
+    padding-bottom: 32px;
+    
+}
+.email{
+    font-size: 10px;
+}
+.border{
+    border: 1px solid #989898;
+}
+.border2{
+    border: 1px solid #989898;
+    margin-top: 211px;
+    margin-bottom: 32px;
+    width: 1341px;
+    margin-left: 255px;
+}
+
+.listImg{
+    display: flex;
+}
+.listImg li{
+    margin-right: 25px;
+}
+.folow{
+margin-top: 92px;
+margin-bottom: 32px;
+}
+.end{
+      margin-left: 255px;  
+      font-size: 30px;
+}
+.section2{
+    background: url(../image/bg.png);
+    background-color: #232323;
+    padding-bottom: 1000px;
+}
+.mask{
+    margin-left: 113px;
+    margin-top: 94px;
+}
+.borderBl{
+    border: 3px solid #000000;
+    border-radius: 15px;
+    width: 338px;
+    height: 51px;
+    margin-left: 33px;
+}
+
+.profText{
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+    justify-content: flex-end
+    
+}
+.infoo{
+    font-size: 25px;
+    color: #fff;
+}
+.profile{
+    display: flex;
+    width: 606px;
+    flex-direction: column;   
+    margin-left: 162px;
+}
+.qq{
+    position: absolute;
+}
+.section3{
+    background-color: #232323;
+}
+.bg{
+    background: url(../image/bgBascet.png); 
+    height: 914px;
+    min-width: 0;
+}
+
+.bgg{
+    background: #131313; 
+    color: #fff;
+    padding-bottom: 300px;
+    padding-bottom: 200px;
+}
+.matchinfo{
+    margin-left: 5%;
+    padding-top: 100px;;
+}
+#item h1, p{
+    font-size: 50px;
+}
+#item, button{
+    font-size:30px ;
+}
+.matchinfo2{
+    margin-left: 5%;
+    padding-top: 100px;;
+}
+.matchinfo2, button{
+    font-size:30px ;
+    margin-left: 5%;
+}
+
+.slider {
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 30%;
+    padding-top: 200px;
+  }
+  
+  .slides {
+    width: 300%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slides img {
+    width: 33.33%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .prev {
+    left: 10px;
+  }
+  .next {
+    right: 10px;
+  }
+  .namee{
+    width: 330px;
+  }
+  .asd{
+    background-color: #131313;
+  }
+  @media (max-width:1871px){
+    .container{
+        max-width: 1500px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .tophader{
+        width: 1300px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .imtext{
+        width: 1456px;
+    }
+    .imgBas{
+        margin-left: 100px;
+        width: 600px;
+    }
+    .general{
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-left:250px ;
+        align-items: normal;
+        
+    }
+    .welcome{
+        margin-left: 100px;
+        width: 400px;
+    }
+    .right{
+        width: 400px;
+        margin-left: 100px;
+    }
+    .inf{
+        margin-left: 252px;
+        width: 1152px;
+    }
+    .target{
+        margin-left: 0px;
+    }
+    .foterGeneral{
+        width: 1544px;
+        margin-left: 20px;
+    }
+    .foterGeneral div{
+        margin-right: 40px; 
+    }
+    .border2{
+        margin-left: 196px;
+        width: 1184px;
+    }
+    .end{
+        margin-left: 211px;
+    }
+    .header{
+        padding-left: 100px;
+    }
+    .sectionFirst{
+        padding-left: 150px;
+    }
+    .list{
+        margin-left: 84px;
+    }
+  }
+
+  @media (max-width:1620px){
+    .container{
+        max-width: 1400px;
+        
+    }
+    .ff{
+        width: 150px;
+    }
+    .tophader{
+        width: 1203px;
+        margin-left: 40px;
+    }
+    .imgBas{    
+        margin-left: 50px;
+    }
+    .welcome{
+        font-size: 40px;
+    }
+    .com{
+        font-size: 30px;
+        width: 650px;
+    }
+    .inf{
+        margin-left: 20px;
+    }
+    .foterGeneral{
+        margin-left:0px;
+        width: 1401px;
+    }
+    .folow{
+        margin-top:40px ;
+    }
+    .border2{
+        margin-left: 40px;
+    }
+    .list{
+        margin-left: 18px;
+        margin-right:0px;
+    }
+    .imtext{
+        width: 1298px;
+    }
+    .firstright{
+        margin-left: 0px;
+    }
+    .profill{
+        margin-left: 124px;
+    }
+    
+ }
+@media (max-width:1400px){
+    .container{
+        max-width: 1250px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .profill{
+        margin-left: -75px;
+    }
+    .tophader{
+        width: 1075px;
+        margin: auto;
+        margin-left: 0px;
+    }
+    .centrf{
+        width: 500px;
+    }
+    .list{
+        margin-left: 0px;
+    }
+    .firstright{
+        margin-left: 230px;
+    }
+    .list li{
+        width: 203px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .ff{
+    width: 148px;
+    }
+    .imgBas{
+        width: 400px;
+        margin-left: 116px;
+    }
+    .welcome{
+        font-size: 30px;
+    }
+    .com{
+        font-size: 20px;
+        width: 500px;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+        margin-left: 158px;
+        width: 614px;
+    }
+    .inf{
+        justify-content: normal;
+        margin-left: 100px;
+    }
+    .foterGeneral {
+        margin-left: 38px;
+        width: 1121px;
+    }
+    .foterGeneral div{
+        margin-right: 50px;
+    }
+    .imtext{
+        width: 1081px;
+    }
+    .inf{
+        width: 1072px;
+    }
+    .border2{
+        width: 1100px;
+    }
+
+}
+@media (max-width:1190px){
+    .container{
+        max-width: 960px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .tophader{
+        width: 863px;
+        margin: auto;
+    }
+    .list li{
+        width: 180px;
+        
+    }
+    .firstimg{
+        display: none;
+    }
+    .firstright{
+        margin-left: -57px;
+    }
+    .centrf{
+        width: 700px;
+    }
+    .list{
+        margin-left: 0px;
+    }
+    .inf{
+        margin-left: 5px;
+        flex-direction: column;
+        width: 983px;
+    }
+    .target {
+        margin-left: 85px;
+        margin-top: 20px;
+    }
+    .targetText {
+        margin: 22px 40%;
+    }
+    .sectionTwo{
+        padding: 0px 0px;  
+    }
+    .foterGeneral{
+        width: 949px;
+    }
+    .folow{
+        font-size: 20px;
+    }
+    .border2{
+        width: 900px;
+    }
+    .end{
+        font-size: 20px;
+    }
+    .imtext{
+        width: 887px;
+    }
+
+    
+}
+@media (max-width:991px){
+    .container{
+        max-width: 490px;
+        margin-left: 0px;
+    }
+    .qq{
+        width: 500px;
+    }
+    .profile {
+        display: flex;
+        width: 464px;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .list li{
+        width: 100px;
+        font-size: 15px;
+    } 
+    .list{
+        margin-right: 0px;
+        width: 370px;
+        flex-direction: column
+    } 
+    .tophader{
+        width: 379px;
+        flex-direction: column
+    } 
+    .centrf{
+        width: 450px;
+    }
+    .imtext{
+        width: 1000px;
+    }
+    .target{
+        width: 250px;
+    }
+    .textP{
+        width: 230px;
+    }
+    .foterGeneral{
+        margin-left: 100px;  
+    }
+    .general{
+        margin-left: 0px;
+        width: 218px;
+    }
+    .border{
+        width: 150px;
+    }
+    .border2{
+        width: 700px;
+    }
+    .end{
+        margin-left: 40px;
+    }
+    .firstright{
+        width: 220px;
+        margin-left: -152px;
+    }
+    .imtext{
+        width: 389px;
+    }
+    .welcome{
+        width: 200px;
+        font-size: 20px;
+        margin-left: 56px;
+    }
+    .com{
+        width: 280px;
+        font-size: 12px;
+    }
+    .imtext{
+        width: 387px;
+    }
+    .imgBas{
+        margin-left: 0px;
+        width: 200px;
+    }
+    .right{
+        margin-left: 0px;
+        width: 280px;
+    }
+    .inf{
+        width: 489px;
+    }
+    .target{
+        margin-left: 10px;
+    }
+    .targetText{
+        width: 80px;
+    }
+    .foterGeneral {
+        margin-left: 14px;
+        width: 469px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foterGeneral div{
+        margin-top: 30px;
+    }
+    .border2 {
+        width: 412px;
+    }
+    .end {
+        font-size: 12px;
+    }
+    .centrf {
+        width: 365px;
+    }
+    .list li{
+        margin-bottom: 10px;
+        width: 150px;
+    }        
+    }
